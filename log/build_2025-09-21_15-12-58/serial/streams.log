@@ -1,0 +1,33 @@
+[0.079s] Invoking command in '/home/jabari2/jabari/build/serial': CMAKE_PREFIX_PATH=/home/jabari2/jabari/install/diffdrive_arduino:/home/jabari2/jabari/install/serial:/home/jabari2/jabari/install/articubot_one:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake --build /home/jabari2/jabari/build/serial -- -j4 -l4
+[0.319s] [ 14%] Built target gtest_main
+[0.324s] [ 28%] Built target gtest
+[0.343s] [ 57%] Built target serial
+[0.453s] [ 71%] Built target serial_example
+[0.476s] [ 85%] Built target serial-test
+[0.487s] [100%] Built target serial-test-timer
+[0.527s] Invoked command in '/home/jabari2/jabari/build/serial' returned '0': CMAKE_PREFIX_PATH=/home/jabari2/jabari/install/diffdrive_arduino:/home/jabari2/jabari/install/serial:/home/jabari2/jabari/install/articubot_one:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake --build /home/jabari2/jabari/build/serial -- -j4 -l4
+[0.536s] Invoking command in '/home/jabari2/jabari/build/serial': CMAKE_PREFIX_PATH=/home/jabari2/jabari/install/diffdrive_arduino:/home/jabari2/jabari/install/serial:/home/jabari2/jabari/install/articubot_one:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake --install /home/jabari2/jabari/build/serial
+[0.566s] -- Install configuration: ""
+[0.567s] -- Up-to-date: /home/jabari2/jabari/install/serial/lib/libserial.a
+[0.567s] -- Up-to-date: /home/jabari2/jabari/install/serial/include/serial/serial.h
+[0.568s] -- Up-to-date: /home/jabari2/jabari/install/serial/include/serial/v8stdint.h
+[0.568s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/serial/environment/library_path.sh
+[0.568s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/serial/environment/library_path.dsv
+[0.569s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[0.569s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[0.569s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/serial/environment/ament_prefix_path.sh
+[0.570s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/serial/environment/ament_prefix_path.dsv
+[0.570s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/serial/environment/path.sh
+[0.571s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/serial/environment/path.dsv
+[0.571s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/serial/local_setup.bash
+[0.571s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/serial/local_setup.sh
+[0.572s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/serial/local_setup.zsh
+[0.572s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/serial/local_setup.dsv
+[0.572s] -- Installing: /home/jabari2/jabari/install/serial/share/serial/package.dsv
+[0.573s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/ament_index/resource_index/packages/serial
+[0.573s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.574s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[0.574s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/serial/cmake/serialConfig.cmake
+[0.574s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/serial/cmake/serialConfig-version.cmake
+[0.575s] -- Up-to-date: /home/jabari2/jabari/install/serial/share/serial/package.xml
+[0.582s] Invoked command in '/home/jabari2/jabari/build/serial' returned '0': CMAKE_PREFIX_PATH=/home/jabari2/jabari/install/diffdrive_arduino:/home/jabari2/jabari/install/serial:/home/jabari2/jabari/install/articubot_one:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake --install /home/jabari2/jabari/build/serial

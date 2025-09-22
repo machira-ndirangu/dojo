@@ -1,0 +1,534 @@
+[0.000000] (-) TimerEvent: {}
+[0.001574] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.002089] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.002178] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/jabari2/jabari/install/serial')])}
+[0.002268] (serial) JobStarted: {'identifier': 'serial'}
+[0.035403] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.064093] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.065927] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/jabari2/jabari/serial', '-DCMAKE_INSTALL_PREFIX=/home/jabari2/jabari/install/serial'], 'cwd': '/home/jabari2/jabari/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jabari2'), ('SSH_CLIENT', '192.168.48.26 38630 22'), ('LC_TIME', 'sw_KE'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jabari2/ros2_ws/install/serial_motor_demo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jabari2'), ('OLDPWD', '/home/jabari2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'sw_KE'), ('ROS_IP', '192.168.151.26'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jabari2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jabari2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jabari2/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'sw_KE'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'sw_KE'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/rplidar_ros:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sw_KE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sw_KE'), ('LC_IDENTIFICATION', 'sw_KE'), ('PWD', '/home/jabari2/jabari/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.48.26 38630 192.168.48.103 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jabari2/ros2_ws/install/yolo_image_processor/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/home/jabari2/ros2_ws/install/motor_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/manual_control/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_rover_bringup/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/diff_drive_controller/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/camera_publisher_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sw_KE'), ('LC_PAPER', 'sw_KE'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros')]), 'shell': False}
+[0.085097] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.087261] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '/home/jabari2/jabari/articubot_one', '-DCMAKE_INSTALL_PREFIX=/home/jabari2/jabari/install/articubot_one'], 'cwd': '/home/jabari2/jabari/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jabari2'), ('SSH_CLIENT', '192.168.48.26 38630 22'), ('LC_TIME', 'sw_KE'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jabari2/ros2_ws/install/serial_motor_demo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jabari2'), ('OLDPWD', '/home/jabari2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'sw_KE'), ('ROS_IP', '192.168.151.26'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jabari2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jabari2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jabari2/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'sw_KE'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'sw_KE'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/rplidar_ros:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sw_KE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sw_KE'), ('LC_IDENTIFICATION', 'sw_KE'), ('PWD', '/home/jabari2/jabari/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.48.26 38630 192.168.48.103 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jabari2/ros2_ws/install/yolo_image_processor/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/home/jabari2/ros2_ws/install/motor_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/manual_control/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_rover_bringup/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/diff_drive_controller/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/camera_publisher_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sw_KE'), ('LC_PAPER', 'sw_KE'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros')]), 'shell': False}
+[0.099516] (-) TimerEvent: {}
+[0.201276] (-) TimerEvent: {}
+[0.303165] (-) TimerEvent: {}
+[0.348989] (serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.358521] (articubot_one) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.403355] (-) TimerEvent: {}
+[0.504269] (-) TimerEvent: {}
+[0.605828] (-) TimerEvent: {}
+[0.617628] (serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.624120] (articubot_one) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.648316] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.653834] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.706095] (-) TimerEvent: {}
+[0.807444] (-) TimerEvent: {}
+[0.908399] (-) TimerEvent: {}
+[0.974861] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.981483] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.999258] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.000054] (serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.001762] (serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.006127] (articubot_one) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.006945] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.008248] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.008723] (-) TimerEvent: {}
+[1.013182] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.019635] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.109063] (-) TimerEvent: {}
+[1.210148] (-) TimerEvent: {}
+[1.311292] (-) TimerEvent: {}
+[1.377043] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.383049] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.401769] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.402725] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.404339] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.407682] (articubot_one) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.408628] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.410205] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.411361] (-) TimerEvent: {}
+[1.444781] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.449108] (articubot_one) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.511589] (-) TimerEvent: {}
+[1.612580] (-) TimerEvent: {}
+[1.713388] (-) TimerEvent: {}
+[1.814141] (-) TimerEvent: {}
+[1.914821] (-) TimerEvent: {}
+[2.015601] (-) TimerEvent: {}
+[2.116360] (-) TimerEvent: {}
+[2.217249] (-) TimerEvent: {}
+[2.318121] (-) TimerEvent: {}
+[2.419046] (-) TimerEvent: {}
+[2.432920] (articubot_one) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.434154] (serial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.519445] (-) TimerEvent: {}
+[2.621241] (-) TimerEvent: {}
+[2.722141] (-) TimerEvent: {}
+[2.823623] (-) TimerEvent: {}
+[2.924349] (-) TimerEvent: {}
+[3.025117] (-) TimerEvent: {}
+[3.125843] (-) TimerEvent: {}
+[3.226635] (-) TimerEvent: {}
+[3.274584] (articubot_one) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.277038] (serial) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[3.326788] (-) TimerEvent: {}
+[3.365465] (serial) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[3.401552] (serial) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[3.408859] (serial) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.426984] (-) TimerEvent: {}
+[3.527980] (-) TimerEvent: {}
+[3.628738] (-) TimerEvent: {}
+[3.729682] (-) TimerEvent: {}
+[3.741982] (serial) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.742857] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.829904] (-) TimerEvent: {}
+[3.918366] (articubot_one) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.930081] (-) TimerEvent: {}
+[4.008526] (articubot_one) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.023190] (articubot_one) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.030279] (-) TimerEvent: {}
+[4.032226] (articubot_one) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.060200] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.063341] (serial) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.081545] (articubot_one) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.092372] (articubot_one) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.113640] (articubot_one) StdoutLine: {'line': b'-- Generating done\n'}
+[4.122551] (articubot_one) StdoutLine: {'line': b'-- Build files have been written to: /home/jabari2/jabari/build/articubot_one\n'}
+[4.130574] (-) TimerEvent: {}
+[4.142562] (articubot_one) CommandEnded: {'returncode': 0}
+[4.144390] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[4.146732] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jabari2/jabari/build/articubot_one', '--', '-j4', '-l4'], 'cwd': '/home/jabari2/jabari/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jabari2'), ('SSH_CLIENT', '192.168.48.26 38630 22'), ('LC_TIME', 'sw_KE'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jabari2/ros2_ws/install/serial_motor_demo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jabari2'), ('OLDPWD', '/home/jabari2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'sw_KE'), ('ROS_IP', '192.168.151.26'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jabari2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jabari2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jabari2/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'sw_KE'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'sw_KE'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/rplidar_ros:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sw_KE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sw_KE'), ('LC_IDENTIFICATION', 'sw_KE'), ('PWD', '/home/jabari2/jabari/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.48.26 38630 192.168.48.103 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jabari2/ros2_ws/install/yolo_image_processor/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/home/jabari2/ros2_ws/install/motor_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/manual_control/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_rover_bringup/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/diff_drive_controller/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/camera_publisher_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sw_KE'), ('LC_PAPER', 'sw_KE'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros')]), 'shell': False}
+[4.230733] (-) TimerEvent: {}
+[4.302390] (articubot_one) CommandEnded: {'returncode': 0}
+[4.304631] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[4.330949] (-) TimerEvent: {}
+[4.337274] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jabari2/jabari/build/articubot_one'], 'cwd': '/home/jabari2/jabari/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jabari2'), ('SSH_CLIENT', '192.168.48.26 38630 22'), ('LC_TIME', 'sw_KE'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jabari2/ros2_ws/install/serial_motor_demo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jabari2'), ('OLDPWD', '/home/jabari2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'sw_KE'), ('ROS_IP', '192.168.151.26'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jabari2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jabari2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jabari2/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'sw_KE'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'sw_KE'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/rplidar_ros:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sw_KE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sw_KE'), ('LC_IDENTIFICATION', 'sw_KE'), ('PWD', '/home/jabari2/jabari/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.48.26 38630 192.168.48.103 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jabari2/ros2_ws/install/yolo_image_processor/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/home/jabari2/ros2_ws/install/motor_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/manual_control/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_rover_bringup/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/diff_drive_controller/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/camera_publisher_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sw_KE'), ('LC_PAPER', 'sw_KE'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros')]), 'shell': False}
+[4.373203] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.374344] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/config\n'}
+[4.375231] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/config/gazebo_params.yaml\n'}
+[4.377126] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[4.378671] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml\n'}
+[4.380345] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[4.381962] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/config/joystick.yaml\n'}
+[4.383477] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/config/twist_mux.yaml\n'}
+[4.384839] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/config/nav2_params.yaml\n'}
+[4.386296] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/config/main.rviz\n'}
+[4.387952] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/config/my_controllers.yaml\n'}
+[4.389739] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml\n'}
+[4.391087] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/config/map.rviz\n'}
+[4.392334] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[4.393566] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml\n'}
+[4.394989] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/config/drive_bot.rviz\n'}
+[4.396130] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/description\n'}
+[4.396999] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[4.398497] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/description/depth_camera.xacro\n'}
+[4.399699] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/description/camera.xacro\n'}
+[4.401504] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/description/face.xacro\n'}
+[4.403047] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/description/ros2_control.xacro\n'}
+[4.404369] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[4.406011] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/description/lidar.xacro\n'}
+[4.407414] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[4.408852] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/description/gazebo_control.xacro\n'}
+[4.409978] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/launch\n'}
+[4.411058] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/launch/joystick.launch.py\n'}
+[4.412319] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[4.413582] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py\n'}
+[4.414519] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/launch/localization_launch.py\n'}
+[4.415455] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py\n'}
+[4.416404] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py\n'}
+[4.417345] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/launch/online_async_launch.py\n'}
+[4.418264] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/launch/navigation_launch.py\n'}
+[4.419140] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/launch/camera.launch.py\n'}
+[4.419989] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/launch/rplidar.launch.py\n'}
+[4.420833] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/worlds\n'}
+[4.421546] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/worlds/obstacles.world\n'}
+[4.422650] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[4.424174] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[4.425666] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[4.427155] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[4.428240] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[4.429299] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[4.430367] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[4.431071] (-) TimerEvent: {}
+[4.431973] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[4.432607] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[4.433784] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[4.434825] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[4.435793] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/package.dsv\n'}
+[4.437101] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[4.438457] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[4.439047] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.439585] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[4.440585] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/articubot_one/share/articubot_one/package.xml\n'}
+[4.446222] (articubot_one) CommandEnded: {'returncode': 0}
+[4.502333] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[4.523725] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/jabari2/jabari/build/serial\n'}
+[4.525731] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[4.531462] (-) TimerEvent: {}
+[4.541883] (serial) CommandEnded: {'returncode': 0}
+[4.543581] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[4.544392] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jabari2/jabari/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/jabari2/jabari/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jabari2'), ('SSH_CLIENT', '192.168.48.26 38630 22'), ('LC_TIME', 'sw_KE'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jabari2/ros2_ws/install/serial_motor_demo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jabari2'), ('OLDPWD', '/home/jabari2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'sw_KE'), ('ROS_IP', '192.168.151.26'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jabari2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jabari2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jabari2/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'sw_KE'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'sw_KE'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/rplidar_ros:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sw_KE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sw_KE'), ('LC_IDENTIFICATION', 'sw_KE'), ('PWD', '/home/jabari2/jabari/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.48.26 38630 192.168.48.103 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jabari2/ros2_ws/install/yolo_image_processor/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/home/jabari2/ros2_ws/install/motor_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/manual_control/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_rover_bringup/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/diff_drive_controller/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/camera_publisher_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sw_KE'), ('LC_PAPER', 'sw_KE'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros')]), 'shell': False}
+[4.631688] (-) TimerEvent: {}
+[4.732448] (-) TimerEvent: {}
+[4.751413] (serial) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[4.753753] (serial) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[4.755057] (serial) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[4.757916] (serial) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[4.832903] (-) TimerEvent: {}
+[4.933815] (-) TimerEvent: {}
+[5.034786] (-) TimerEvent: {}
+[5.135934] (-) TimerEvent: {}
+[5.237053] (-) TimerEvent: {}
+[5.338234] (-) TimerEvent: {}
+[5.439321] (-) TimerEvent: {}
+[5.540448] (-) TimerEvent: {}
+[5.641747] (-) TimerEvent: {}
+[5.742846] (-) TimerEvent: {}
+[5.843877] (-) TimerEvent: {}
+[5.944994] (-) TimerEvent: {}
+[6.045976] (-) TimerEvent: {}
+[6.147135] (-) TimerEvent: {}
+[6.248152] (-) TimerEvent: {}
+[6.349154] (-) TimerEvent: {}
+[6.450387] (-) TimerEvent: {}
+[6.551435] (-) TimerEvent: {}
+[6.652547] (-) TimerEvent: {}
+[6.753582] (-) TimerEvent: {}
+[6.854522] (-) TimerEvent: {}
+[6.955666] (-) TimerEvent: {}
+[7.056932] (-) TimerEvent: {}
+[7.158118] (-) TimerEvent: {}
+[7.259316] (-) TimerEvent: {}
+[7.307325] (serial) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[7.359636] (-) TimerEvent: {}
+[7.460957] (-) TimerEvent: {}
+[7.562344] (-) TimerEvent: {}
+[7.663570] (-) TimerEvent: {}
+[7.764946] (-) TimerEvent: {}
+[7.866290] (-) TimerEvent: {}
+[7.967708] (-) TimerEvent: {}
+[8.068977] (-) TimerEvent: {}
+[8.170136] (-) TimerEvent: {}
+[8.271339] (-) TimerEvent: {}
+[8.372656] (-) TimerEvent: {}
+[8.474407] (-) TimerEvent: {}
+[8.576539] (-) TimerEvent: {}
+[8.678599] (-) TimerEvent: {}
+[8.779934] (-) TimerEvent: {}
+[8.882159] (-) TimerEvent: {}
+[8.984199] (-) TimerEvent: {}
+[9.086085] (-) TimerEvent: {}
+[9.187781] (-) TimerEvent: {}
+[9.289769] (-) TimerEvent: {}
+[9.391864] (-) TimerEvent: {}
+[9.493443] (-) TimerEvent: {}
+[9.596179] (-) TimerEvent: {}
+[9.700018] (-) TimerEvent: {}
+[9.803806] (-) TimerEvent: {}
+[9.908181] (-) TimerEvent: {}
+[10.012359] (-) TimerEvent: {}
+[10.116084] (-) TimerEvent: {}
+[10.219947] (-) TimerEvent: {}
+[10.323672] (-) TimerEvent: {}
+[10.427076] (-) TimerEvent: {}
+[10.530603] (-) TimerEvent: {}
+[10.633952] (-) TimerEvent: {}
+[10.737625] (-) TimerEvent: {}
+[10.840973] (-) TimerEvent: {}
+[10.944452] (-) TimerEvent: {}
+[11.046645] (-) TimerEvent: {}
+[11.149569] (-) TimerEvent: {}
+[11.252310] (-) TimerEvent: {}
+[11.354377] (-) TimerEvent: {}
+[11.456416] (-) TimerEvent: {}
+[11.540160] (serial) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[11.556644] (-) TimerEvent: {}
+[11.658717] (-) TimerEvent: {}
+[11.723810] (serial) StdoutLine: {'line': b'[ 42%] Built target serial\n'}
+[11.759118] (-) TimerEvent: {}
+[11.832027] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o\x1b[0m\n'}
+[11.859393] (-) TimerEvent: {}
+[11.961256] (-) TimerEvent: {}
+[11.986577] (serial) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[12.061528] (-) TimerEvent: {}
+[12.137408] (serial) StdoutLine: {'line': b'[ 57%] Built target gtest_main\n'}
+[12.161721] (-) TimerEvent: {}
+[12.262570] (-) TimerEvent: {}
+[12.363450] (-) TimerEvent: {}
+[12.464388] (-) TimerEvent: {}
+[12.565325] (-) TimerEvent: {}
+[12.666130] (-) TimerEvent: {}
+[12.767039] (-) TimerEvent: {}
+[12.867908] (-) TimerEvent: {}
+[12.968675] (-) TimerEvent: {}
+[13.069619] (-) TimerEvent: {}
+[13.170488] (-) TimerEvent: {}
+[13.271268] (-) TimerEvent: {}
+[13.372153] (-) TimerEvent: {}
+[13.445326] (serial) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable serial_example\x1b[0m\n'}
+[13.472372] (-) TimerEvent: {}
+[13.573304] (-) TimerEvent: {}
+[13.674160] (-) TimerEvent: {}
+[13.775049] (-) TimerEvent: {}
+[13.794986] (serial) StdoutLine: {'line': b'[ 64%] Built target serial_example\n'}
+[13.875274] (-) TimerEvent: {}
+[13.975991] (-) TimerEvent: {}
+[14.076846] (-) TimerEvent: {}
+[14.177569] (-) TimerEvent: {}
+[14.278274] (-) TimerEvent: {}
+[14.378965] (-) TimerEvent: {}
+[14.479753] (-) TimerEvent: {}
+[14.580647] (-) TimerEvent: {}
+[14.681471] (-) TimerEvent: {}
+[14.782181] (-) TimerEvent: {}
+[14.882940] (-) TimerEvent: {}
+[14.983888] (-) TimerEvent: {}
+[15.084615] (-) TimerEvent: {}
+[15.185429] (-) TimerEvent: {}
+[15.286552] (-) TimerEvent: {}
+[15.387249] (-) TimerEvent: {}
+[15.487997] (-) TimerEvent: {}
+[15.588706] (-) TimerEvent: {}
+[15.689462] (-) TimerEvent: {}
+[15.790139] (-) TimerEvent: {}
+[15.890839] (-) TimerEvent: {}
+[15.991557] (-) TimerEvent: {}
+[16.092250] (-) TimerEvent: {}
+[16.192978] (-) TimerEvent: {}
+[16.293681] (-) TimerEvent: {}
+[16.394365] (-) TimerEvent: {}
+[16.495085] (-) TimerEvent: {}
+[16.595810] (-) TimerEvent: {}
+[16.696531] (-) TimerEvent: {}
+[16.797252] (-) TimerEvent: {}
+[16.897940] (-) TimerEvent: {}
+[16.998645] (-) TimerEvent: {}
+[17.099389] (-) TimerEvent: {}
+[17.200261] (-) TimerEvent: {}
+[17.300954] (-) TimerEvent: {}
+[17.401676] (-) TimerEvent: {}
+[17.502366] (-) TimerEvent: {}
+[17.603030] (-) TimerEvent: {}
+[17.703758] (-) TimerEvent: {}
+[17.804461] (-) TimerEvent: {}
+[17.905140] (-) TimerEvent: {}
+[18.005798] (-) TimerEvent: {}
+[18.106499] (-) TimerEvent: {}
+[18.207236] (-) TimerEvent: {}
+[18.308027] (-) TimerEvent: {}
+[18.408723] (-) TimerEvent: {}
+[18.509431] (-) TimerEvent: {}
+[18.610137] (-) TimerEvent: {}
+[18.710855] (-) TimerEvent: {}
+[18.811549] (-) TimerEvent: {}
+[18.912249] (-) TimerEvent: {}
+[19.012981] (-) TimerEvent: {}
+[19.113676] (-) TimerEvent: {}
+[19.214398] (-) TimerEvent: {}
+[19.315095] (-) TimerEvent: {}
+[19.415832] (-) TimerEvent: {}
+[19.516515] (-) TimerEvent: {}
+[19.617284] (-) TimerEvent: {}
+[19.717966] (-) TimerEvent: {}
+[19.818653] (-) TimerEvent: {}
+[19.919419] (-) TimerEvent: {}
+[20.020356] (-) TimerEvent: {}
+[20.121119] (-) TimerEvent: {}
+[20.221795] (-) TimerEvent: {}
+[20.322487] (-) TimerEvent: {}
+[20.423188] (-) TimerEvent: {}
+[20.523902] (-) TimerEvent: {}
+[20.624645] (-) TimerEvent: {}
+[20.725395] (-) TimerEvent: {}
+[20.826116] (-) TimerEvent: {}
+[20.926935] (-) TimerEvent: {}
+[21.027985] (-) TimerEvent: {}
+[21.129172] (-) TimerEvent: {}
+[21.143404] (serial) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[21.229527] (-) TimerEvent: {}
+[21.330431] (-) TimerEvent: {}
+[21.431236] (-) TimerEvent: {}
+[21.444476] (serial) StdoutLine: {'line': b'[ 71%] Built target gtest\n'}
+[21.531440] (-) TimerEvent: {}
+[21.532468] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o\x1b[0m\n'}
+[21.533389] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o\x1b[0m\n'}
+[21.631656] (-) TimerEvent: {}
+[21.732416] (-) TimerEvent: {}
+[21.833205] (-) TimerEvent: {}
+[21.933936] (-) TimerEvent: {}
+[22.034709] (-) TimerEvent: {}
+[22.135630] (-) TimerEvent: {}
+[22.236545] (-) TimerEvent: {}
+[22.337570] (-) TimerEvent: {}
+[22.438480] (-) TimerEvent: {}
+[22.539424] (-) TimerEvent: {}
+[22.640353] (-) TimerEvent: {}
+[22.741418] (-) TimerEvent: {}
+[22.842326] (-) TimerEvent: {}
+[22.943254] (-) TimerEvent: {}
+[23.044081] (-) TimerEvent: {}
+[23.144994] (-) TimerEvent: {}
+[23.245929] (-) TimerEvent: {}
+[23.346715] (-) TimerEvent: {}
+[23.447668] (-) TimerEvent: {}
+[23.548524] (-) TimerEvent: {}
+[23.649411] (-) TimerEvent: {}
+[23.750537] (-) TimerEvent: {}
+[23.851377] (-) TimerEvent: {}
+[23.952174] (-) TimerEvent: {}
+[24.053161] (-) TimerEvent: {}
+[24.154714] (-) TimerEvent: {}
+[24.256710] (-) TimerEvent: {}
+[24.358425] (-) TimerEvent: {}
+[24.460061] (-) TimerEvent: {}
+[24.561725] (-) TimerEvent: {}
+[24.663296] (-) TimerEvent: {}
+[24.764927] (-) TimerEvent: {}
+[24.866607] (-) TimerEvent: {}
+[24.968284] (-) TimerEvent: {}
+[25.069998] (-) TimerEvent: {}
+[25.171637] (-) TimerEvent: {}
+[25.273285] (-) TimerEvent: {}
+[25.374912] (-) TimerEvent: {}
+[25.476637] (-) TimerEvent: {}
+[25.578356] (-) TimerEvent: {}
+[25.679837] (-) TimerEvent: {}
+[25.781008] (-) TimerEvent: {}
+[25.882297] (-) TimerEvent: {}
+[25.983780] (-) TimerEvent: {}
+[26.085871] (-) TimerEvent: {}
+[26.187091] (-) TimerEvent: {}
+[26.288180] (-) TimerEvent: {}
+[26.389277] (-) TimerEvent: {}
+[26.490113] (-) TimerEvent: {}
+[26.590922] (-) TimerEvent: {}
+[26.691777] (-) TimerEvent: {}
+[26.792866] (-) TimerEvent: {}
+[26.893934] (-) TimerEvent: {}
+[26.995165] (-) TimerEvent: {}
+[27.096227] (-) TimerEvent: {}
+[27.196179] (serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind.hpp:30\x1b[m\x1b[K,\n'}
+[27.197059] (-) TimerEvent: {}
+[27.197597] (serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jabari2/jabari/serial/tests/unix_serial_tests.cc:23\x1b[m\x1b[K:\n'}
+[27.198419] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[27.199007] (serial) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[27.199607] (serial) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.297268] (-) TimerEvent: {}
+[27.349497] (serial) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable serial-test-timer\x1b[0m\n'}
+[27.397464] (-) TimerEvent: {}
+[27.498871] (-) TimerEvent: {}
+[27.599808] (-) TimerEvent: {}
+[27.700741] (-) TimerEvent: {}
+[27.801628] (-) TimerEvent: {}
+[27.902562] (-) TimerEvent: {}
+[27.925305] (serial) StdoutLine: {'line': b'[ 92%] Built target serial-test-timer\n'}
+[28.002777] (-) TimerEvent: {}
+[28.103511] (-) TimerEvent: {}
+[28.141087] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial-test\x1b[0m\n'}
+[28.203728] (-) TimerEvent: {}
+[28.304567] (-) TimerEvent: {}
+[28.405366] (-) TimerEvent: {}
+[28.506199] (-) TimerEvent: {}
+[28.607116] (-) TimerEvent: {}
+[28.692286] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[28.707345] (-) TimerEvent: {}
+[28.734280] (serial) CommandEnded: {'returncode': 0}
+[28.736352] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[28.737149] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jabari2/jabari/build/serial'], 'cwd': '/home/jabari2/jabari/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jabari2'), ('SSH_CLIENT', '192.168.48.26 38630 22'), ('LC_TIME', 'sw_KE'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jabari2/ros2_ws/install/serial_motor_demo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jabari2'), ('OLDPWD', '/home/jabari2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'sw_KE'), ('ROS_IP', '192.168.151.26'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jabari2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jabari2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jabari2/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'sw_KE'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'sw_KE'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/rplidar_ros:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sw_KE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sw_KE'), ('LC_IDENTIFICATION', 'sw_KE'), ('PWD', '/home/jabari2/jabari/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.48.26 38630 192.168.48.103 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jabari2/ros2_ws/install/yolo_image_processor/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/home/jabari2/ros2_ws/install/motor_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/manual_control/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_rover_bringup/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/diff_drive_controller/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/camera_publisher_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sw_KE'), ('LC_PAPER', 'sw_KE'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros')]), 'shell': False}
+[28.770863] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.771524] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/lib/libserial.a\n'}
+[28.775520] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/include/serial/serial.h\n'}
+[28.776375] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/include/serial/v8stdint.h\n'}
+[28.777734] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/serial/environment/library_path.sh\n'}
+[28.778759] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/serial/environment/library_path.dsv\n'}
+[28.780163] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[28.782053] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[28.783126] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[28.784142] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[28.785176] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/serial/environment/path.sh\n'}
+[28.786142] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/serial/environment/path.dsv\n'}
+[28.787148] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/serial/local_setup.bash\n'}
+[28.788081] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/serial/local_setup.sh\n'}
+[28.789129] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/serial/local_setup.zsh\n'}
+[28.790082] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/serial/local_setup.dsv\n'}
+[28.791036] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/serial/package.dsv\n'}
+[28.792286] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[28.793558] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[28.794663] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[28.795757] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[28.796602] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[28.797623] (serial) StdoutLine: {'line': b'-- Installing: /home/jabari2/jabari/install/serial/share/serial/package.xml\n'}
+[28.803782] (serial) CommandEnded: {'returncode': 0}
+[28.807455] (-) TimerEvent: {}
+[28.857682] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[28.861472] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[28.899720] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[28.901984] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '/home/jabari2/jabari/diffdrive_arduino', '-DCMAKE_INSTALL_PREFIX=/home/jabari2/jabari/install/diffdrive_arduino'], 'cwd': '/home/jabari2/jabari/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jabari2'), ('SSH_CLIENT', '192.168.48.26 38630 22'), ('LC_TIME', 'sw_KE'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jabari2/jabari/install/serial/lib:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jabari2'), ('OLDPWD', '/home/jabari2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'sw_KE'), ('ROS_IP', '192.168.151.26'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jabari2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jabari2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jabari2/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'sw_KE'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'sw_KE'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jabari2/jabari/install/serial:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/rplidar_ros:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sw_KE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sw_KE'), ('LC_IDENTIFICATION', 'sw_KE'), ('PWD', '/home/jabari2/jabari/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.48.26 38630 192.168.48.103 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jabari2/ros2_ws/install/yolo_image_processor/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/home/jabari2/ros2_ws/install/motor_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/manual_control/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_rover_bringup/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/diff_drive_controller/lib/python3.10/site-packages:/home/jabari2/ros2_ws/install/camera_publisher_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sw_KE'), ('LC_PAPER', 'sw_KE'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jabari2/jabari/install/serial:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros')]), 'shell': False}
+[28.912705] (-) TimerEvent: {}
+[29.013545] (-) TimerEvent: {}
+[29.114298] (-) TimerEvent: {}
+[29.179232] (diffdrive_arduino) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[29.214469] (-) TimerEvent: {}
+[29.315189] (-) TimerEvent: {}
+[29.415970] (-) TimerEvent: {}
+[29.436312] (diffdrive_arduino) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[29.466720] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[29.516162] (-) TimerEvent: {}
+[29.617008] (-) TimerEvent: {}
+[29.717828] (-) TimerEvent: {}
+[29.787312] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[29.813069] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[29.813859] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[29.815174] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[29.817928] (-) TimerEvent: {}
+[29.825999] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[29.918154] (-) TimerEvent: {}
+[30.019019] (-) TimerEvent: {}
+[30.119821] (-) TimerEvent: {}
+[30.179645] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[30.208914] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[30.209824] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[30.211401] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[30.219949] (-) TimerEvent: {}
+[30.250816] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[30.320147] (-) TimerEvent: {}
+[30.420773] (-) TimerEvent: {}
+[30.521436] (-) TimerEvent: {}
+[30.622017] (-) TimerEvent: {}
+[30.722695] (-) TimerEvent: {}
+[30.823454] (-) TimerEvent: {}
+[30.924114] (-) TimerEvent: {}
+[31.024780] (-) TimerEvent: {}
+[31.095978] (diffdrive_arduino) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[31.124929] (-) TimerEvent: {}
+[31.225541] (-) TimerEvent: {}
+[31.326197] (-) TimerEvent: {}
+[31.426849] (-) TimerEvent: {}
+[31.527478] (-) TimerEvent: {}
+[31.628091] (-) TimerEvent: {}
+[31.728721] (-) TimerEvent: {}
+[31.829373] (-) TimerEvent: {}
+[31.846920] (diffdrive_arduino) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/home/jabari2/jabari/install/serial/share/serial/cmake)\n'}
+[31.929541] (-) TimerEvent: {}
+[31.999035] (diffdrive_arduino) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:22 (find_package):\n'}
+[31.999810] (diffdrive_arduino) StderrLine: {'line': b'  By not providing "Findhardware_interface.cmake" in CMAKE_MODULE_PATH this\n'}
+[32.000155] (diffdrive_arduino) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[32.000450] (diffdrive_arduino) StderrLine: {'line': b'  "hardware_interface", but CMake did not find one.\n'}
+[32.000728] (diffdrive_arduino) StderrLine: {'line': b'\n'}
+[32.001093] (diffdrive_arduino) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[32.001396] (diffdrive_arduino) StderrLine: {'line': b'  "hardware_interface" with any of the following names:\n'}
+[32.001717] (diffdrive_arduino) StderrLine: {'line': b'\n'}
+[32.002021] (diffdrive_arduino) StderrLine: {'line': b'    hardware_interfaceConfig.cmake\n'}
+[32.002345] (diffdrive_arduino) StderrLine: {'line': b'    hardware_interface-config.cmake\n'}
+[32.002675] (diffdrive_arduino) StderrLine: {'line': b'\n'}
+[32.003037] (diffdrive_arduino) StderrLine: {'line': b'  Add the installation prefix of "hardware_interface" to CMAKE_PREFIX_PATH or\n'}
+[32.003569] (diffdrive_arduino) StderrLine: {'line': b'  set "hardware_interface_DIR" to a directory containing one of the above\n'}
+[32.004327] (diffdrive_arduino) StderrLine: {'line': b'  files.  If "hardware_interface" provides a separate development package or\n'}
+[32.005347] (diffdrive_arduino) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[32.006100] (diffdrive_arduino) StderrLine: {'line': b'\n'}
+[32.006623] (diffdrive_arduino) StderrLine: {'line': b'\x1b[0m\n'}
+[32.007072] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[32.007613] (diffdrive_arduino) StdoutLine: {'line': b'See also "/home/jabari2/jabari/build/diffdrive_arduino/CMakeFiles/CMakeOutput.log".\n'}
+[32.014903] (diffdrive_arduino) CommandEnded: {'returncode': 1}
+[32.029794] (-) TimerEvent: {}
+[32.079086] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 1}
+[32.091338] (-) EventReactorShutdown: {}

@@ -1,0 +1,46 @@
+[0.060s] Invoking command in '/home/jabari2/jabari/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/jabari2/jabari/install/serial:/home/jabari2/jabari/install/diffdrive_arduino:/home/jabari2/jabari/install/articubot_one:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake --build /home/jabari2/jabari/build/diffdrive_arduino -- -j4 -l4
+[0.252s] [35m[1mConsolidate compiler generated dependencies of target fake_robot[0m
+[0.253s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[0.348s] [ 14%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[0.361s] [ 28%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[15.924s] [ 42%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[16.189s] [ 57%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[16.673s] [ 71%] Built target fake_robot
+[17.114s] [100%] Built target diffdrive_arduino
+[17.154s] Invoked command in '/home/jabari2/jabari/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/jabari2/jabari/install/serial:/home/jabari2/jabari/install/diffdrive_arduino:/home/jabari2/jabari/install/articubot_one:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake --build /home/jabari2/jabari/build/diffdrive_arduino -- -j4 -l4
+[17.163s] Invoking command in '/home/jabari2/jabari/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/jabari2/jabari/install/serial:/home/jabari2/jabari/install/diffdrive_arduino:/home/jabari2/jabari/install/articubot_one:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake --install /home/jabari2/jabari/build/diffdrive_arduino
+[17.196s] -- Install configuration: ""
+[17.197s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/robot_hardware.xml
+[17.197s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot_hardware.xml
+[17.197s] -- Installing: /home/jabari2/jabari/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[17.205s] -- Set runtime path of "/home/jabari2/jabari/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""
+[17.206s] -- Installing: /home/jabari2/jabari/install/diffdrive_arduino/lib/libfake_robot.so
+[17.212s] -- Set runtime path of "/home/jabari2/jabari/install/diffdrive_arduino/lib/libfake_robot.so" to ""
+[17.213s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/controllers
+[17.213s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[17.214s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino
+[17.214s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[17.214s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__
+[17.215s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__/test_robot.launch.cpython-310.pyc
+[17.215s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[17.216s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[17.216s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[17.216s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[17.217s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[17.217s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[17.218s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[17.218s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[17.218s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[17.219s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[17.219s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[17.219s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[17.220s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[17.220s] -- Installing: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[17.220s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[17.221s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[17.221s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[17.222s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.222s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[17.222s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[17.223s] -- Up-to-date: /home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[17.229s] Invoked command in '/home/jabari2/jabari/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/jabari2/jabari/install/serial:/home/jabari2/jabari/install/diffdrive_arduino:/home/jabari2/jabari/install/articubot_one:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake --install /home/jabari2/jabari/build/diffdrive_arduino

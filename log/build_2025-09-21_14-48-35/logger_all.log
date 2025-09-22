@@ -1,0 +1,234 @@
+[0.482s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.482s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb59845b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb5b1d4b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb5b1d4b0>>, mixin_verb=('build',))
+[1.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.321s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jabari2/jabari'
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extension 'ignore'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extension 'ignore_ament_install'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extensions ['colcon_pkg']
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extension 'colcon_pkg'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extensions ['colcon_meta']
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extension 'colcon_meta'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extensions ['ros']
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(articubot_one) by extension 'ros'
+[1.377s] DEBUG:colcon.colcon_core.package_identification:Package 'articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'ignore'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'ignore_ament_install'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extensions ['colcon_pkg']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'colcon_pkg'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extensions ['colcon_meta']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'colcon_meta'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extensions ['ros']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'ros'
+[1.384s] DEBUG:colcon.colcon_core.package_identification:Package 'diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['ignore', 'ignore_ament_install']
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'ignore'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'ignore_ament_install'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['colcon_pkg']
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'colcon_pkg'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['colcon_meta']
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'colcon_meta'
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['ros']
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'ros'
+[1.390s] DEBUG:colcon.colcon_core.package_identification:Package 'serial' with type 'ros.ament_cmake' and name 'serial'
+[1.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.524s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/jabari2/ros2_ws/install
+[1.534s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 317 installed packages in /opt/ros/humble
+[1.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.724s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[1.724s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[1.724s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.724s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[1.724s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[1.725s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[1.725s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[1.725s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[1.725s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.725s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jabari2/jabari/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jabari2/jabari/install/articubot_one', 'merge_install': False, 'path': '/home/jabari2/jabari/articubot_one', 'symlink_install': False, 'test_result_base': None}
+[1.726s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.727s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jabari2/jabari/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jabari2/jabari/install/serial', 'merge_install': False, 'path': '/home/jabari2/jabari/serial', 'symlink_install': False, 'test_result_base': None}
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.730s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jabari2/jabari/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jabari2/jabari/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/jabari2/jabari/diffdrive_arduino', 'symlink_install': False, 'test_result_base': None}
+[1.730s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.734s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.735s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jabari2/jabari/serial' with build type 'ament_cmake'
+[1.735s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jabari2/jabari/serial'
+[1.744s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.745s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.745s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.768s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jabari2/jabari/articubot_one' with build type 'ament_cmake'
+[1.769s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jabari2/jabari/articubot_one'
+[1.770s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.771s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jabari2/jabari/build/serial': CMAKE_PREFIX_PATH=/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake /home/jabari2/jabari/serial -DCMAKE_INSTALL_PREFIX=/home/jabari2/jabari/install/serial
+[1.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jabari2/jabari/build/articubot_one': CMAKE_PREFIX_PATH=/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake /home/jabari2/jabari/articubot_one -DCMAKE_INSTALL_PREFIX=/home/jabari2/jabari/install/articubot_one
+[5.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jabari2/jabari/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake /home/jabari2/jabari/articubot_one -DCMAKE_INSTALL_PREFIX=/home/jabari2/jabari/install/articubot_one
+[5.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jabari2/jabari/build/articubot_one': CMAKE_PREFIX_PATH=/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake --build /home/jabari2/jabari/build/articubot_one -- -j4 -l4
+[6.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jabari2/jabari/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake --build /home/jabari2/jabari/build/articubot_one -- -j4 -l4
+[6.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jabari2/jabari/build/articubot_one': CMAKE_PREFIX_PATH=/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake --install /home/jabari2/jabari/build/articubot_one
+[6.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[6.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jabari2/jabari/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake --install /home/jabari2/jabari/build/articubot_one
+[6.193s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/articubot_one' for CMake module files
+[6.195s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/articubot_one' for CMake config files
+[6.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[6.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jabari2/jabari/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[6.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jabari2/jabari/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[6.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jabari2/jabari/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[6.206s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/articubot_one/bin'
+[6.206s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[6.207s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/articubot_one/lib/python3.10/site-packages'
+[6.208s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/articubot_one/bin'
+[6.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/articubot_one/share/articubot_one/package.ps1'
+[6.213s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jabari2/jabari/install/articubot_one/share/articubot_one/package.dsv'
+[6.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/articubot_one/share/articubot_one/package.sh'
+[6.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/articubot_one/share/articubot_one/package.bash'
+[6.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/articubot_one/share/articubot_one/package.zsh'
+[6.225s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jabari2/jabari/install/articubot_one/share/colcon-core/packages/articubot_one)
+[6.228s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[6.229s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/articubot_one' for CMake module files
+[6.232s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/articubot_one' for CMake config files
+[6.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[6.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jabari2/jabari/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[6.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jabari2/jabari/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[6.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jabari2/jabari/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[6.241s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/articubot_one/bin'
+[6.242s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[6.243s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/articubot_one/lib/python3.10/site-packages'
+[6.244s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/articubot_one/bin'
+[6.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/articubot_one/share/articubot_one/package.ps1'
+[6.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jabari2/jabari/install/articubot_one/share/articubot_one/package.dsv'
+[6.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/articubot_one/share/articubot_one/package.sh'
+[6.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/articubot_one/share/articubot_one/package.bash'
+[6.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/articubot_one/share/articubot_one/package.zsh'
+[6.257s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jabari2/jabari/install/articubot_one/share/colcon-core/packages/articubot_one)
+[6.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jabari2/jabari/build/serial' returned '0': CMAKE_PREFIX_PATH=/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake /home/jabari2/jabari/serial -DCMAKE_INSTALL_PREFIX=/home/jabari2/jabari/install/serial
+[6.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jabari2/jabari/build/serial': CMAKE_PREFIX_PATH=/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake --build /home/jabari2/jabari/build/serial -- -j4 -l4
+[30.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jabari2/jabari/build/serial' returned '0': CMAKE_PREFIX_PATH=/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake --build /home/jabari2/jabari/build/serial -- -j4 -l4
+[30.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jabari2/jabari/build/serial': CMAKE_PREFIX_PATH=/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake --install /home/jabari2/jabari/build/serial
+[30.537s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[30.538s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/serial' for CMake module files
+[30.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jabari2/jabari/build/serial' returned '0': CMAKE_PREFIX_PATH=/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros /usr/bin/cmake --install /home/jabari2/jabari/build/serial
+[30.542s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/serial' for CMake config files
+[30.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[30.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jabari2/jabari/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[30.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jabari2/jabari/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[30.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jabari2/jabari/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[30.549s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/serial/lib'
+[30.550s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/serial/bin'
+[30.550s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/serial/lib/pkgconfig/serial.pc'
+[30.551s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/serial/lib/python3.10/site-packages'
+[30.552s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/serial/bin'
+[30.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/serial/share/serial/package.ps1'
+[30.555s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jabari2/jabari/install/serial/share/serial/package.dsv'
+[30.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/serial/share/serial/package.sh'
+[30.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/serial/share/serial/package.bash'
+[30.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/serial/share/serial/package.zsh'
+[30.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jabari2/jabari/install/serial/share/colcon-core/packages/serial)
+[30.565s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[30.566s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/serial' for CMake module files
+[30.568s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/serial' for CMake config files
+[30.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[30.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jabari2/jabari/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[30.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jabari2/jabari/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[30.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jabari2/jabari/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[30.576s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/serial/lib'
+[30.576s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/serial/bin'
+[30.577s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/serial/lib/pkgconfig/serial.pc'
+[30.577s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/serial/lib/python3.10/site-packages'
+[30.578s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/serial/bin'
+[30.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/serial/share/serial/package.ps1'
+[30.582s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jabari2/jabari/install/serial/share/serial/package.dsv'
+[30.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/serial/share/serial/package.sh'
+[30.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/serial/share/serial/package.bash'
+[30.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/serial/share/serial/package.zsh'
+[30.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jabari2/jabari/install/serial/share/colcon-core/packages/serial)
+[30.591s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jabari2/jabari/diffdrive_arduino' with build type 'ament_cmake'
+[30.591s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jabari2/jabari/diffdrive_arduino'
+[30.592s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[30.592s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[30.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jabari2/jabari/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/jabari2/jabari/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jabari2/jabari/install/serial:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros LD_LIBRARY_PATH=/home/jabari2/jabari/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jabari2/jabari/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/jabari2/jabari/install/diffdrive_arduino
+[33.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jabari2/jabari/build/diffdrive_arduino' returned '1': AMENT_PREFIX_PATH=/home/jabari2/jabari/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jabari2/jabari/install/serial:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros LD_LIBRARY_PATH=/home/jabari2/jabari/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jabari2/jabari/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/jabari2/jabari/install/diffdrive_arduino
+[33.793s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[33.795s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/diffdrive_arduino' for CMake module files
+[33.797s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/diffdrive_arduino' for CMake config files
+[33.798s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/diffdrive_arduino/bin'
+[33.798s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[33.799s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/diffdrive_arduino/lib/python3.10/site-packages'
+[33.800s] Level 1:colcon.colcon_core.environment:checking '/home/jabari2/jabari/install/diffdrive_arduino/bin'
+[33.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[33.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[33.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[33.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[33.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/jabari2/jabari/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[33.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jabari2/jabari/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[33.823s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.823s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.824s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[33.824s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[33.851s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[33.851s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[33.851s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[33.851s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[33.854s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[33.854s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[33.855s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jabari2/jabari/install/local_setup.ps1'
+[33.859s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jabari2/jabari/install/_local_setup_util_ps1.py'
+[33.864s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jabari2/jabari/install/setup.ps1'
+[33.871s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jabari2/jabari/install/local_setup.sh'
+[33.873s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jabari2/jabari/install/_local_setup_util_sh.py'
+[33.876s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jabari2/jabari/install/setup.sh'
+[33.883s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jabari2/jabari/install/local_setup.bash'
+[33.885s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jabari2/jabari/install/setup.bash'
+[33.892s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jabari2/jabari/install/local_setup.zsh'
+[33.894s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jabari2/jabari/install/setup.zsh'

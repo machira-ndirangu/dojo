@@ -1,0 +1,36 @@
+[0.050s] Invoking command in '/home/jabari2/jabari/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/jabari2/jabari/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jabari2/jabari/install/serial:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros LD_LIBRARY_PATH=/home/jabari2/jabari/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jabari2/jabari/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/jabari2/jabari/install/diffdrive_arduino
+[0.318s] -- The C compiler identification is GNU 11.4.0
+[0.575s] -- The CXX compiler identification is GNU 11.4.0
+[0.606s] -- Detecting C compiler ABI info
+[0.926s] -- Detecting C compiler ABI info - done
+[0.952s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.953s] -- Detecting C compile features
+[0.954s] -- Detecting C compile features - done
+[0.965s] -- Detecting CXX compiler ABI info
+[1.319s] -- Detecting CXX compiler ABI info - done
+[1.348s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.349s] -- Detecting CXX compile features
+[1.350s] -- Detecting CXX compile features - done
+[1.390s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.235s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.986s] -- Found serial: 1.2.1 (/home/jabari2/jabari/install/serial/share/serial/cmake)
+[3.138s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[3.139s]   By not providing "Findhardware_interface.cmake" in CMAKE_MODULE_PATH this
+[3.139s]   project has asked CMake to find a package configuration file provided by
+[3.139s]   "hardware_interface", but CMake did not find one.
+[3.139s] 
+[3.140s]   Could not find a package configuration file provided by
+[3.140s]   "hardware_interface" with any of the following names:
+[3.140s] 
+[3.141s]     hardware_interfaceConfig.cmake
+[3.141s]     hardware_interface-config.cmake
+[3.141s] 
+[3.142s]   Add the installation prefix of "hardware_interface" to CMAKE_PREFIX_PATH or
+[3.142s]   set "hardware_interface_DIR" to a directory containing one of the above
+[3.143s]   files.  If "hardware_interface" provides a separate development package or
+[3.144s]   SDK, be sure it has been installed.
+[3.145s] 
+[3.145s] [0m
+[3.146s] -- Configuring incomplete, errors occurred!
+[3.146s] See also "/home/jabari2/jabari/build/diffdrive_arduino/CMakeFiles/CMakeOutput.log".
+[3.154s] Invoked command in '/home/jabari2/jabari/build/diffdrive_arduino' returned '1': AMENT_PREFIX_PATH=/home/jabari2/jabari/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jabari2/jabari/install/serial:/home/jabari2/ros2_ws/install/serial_motor_demo_msgs:/home/jabari2/ros2_ws/install/yolo_image_processor:/home/jabari2/ros2_ws/install/serial_motor_demo:/home/jabari2/ros2_ws/install/motor_control_pkg:/home/jabari2/ros2_ws/install/manual_control:/home/jabari2/ros2_ws/install/jabari_rover_bringup:/home/jabari2/ros2_ws/install/jabari_pan_tilt_control_pkg:/home/jabari2/ros2_ws/install/jabari_dht11_control_pkg:/home/jabari2/ros2_ws/install/diff_drive_controller:/home/jabari2/ros2_ws/install/camera_publisher_pkg:/opt/ros/humble:/home/jabari2/ros2_ws/install/rplidar_ros LD_LIBRARY_PATH=/home/jabari2/jabari/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jabari2/jabari/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/jabari2/jabari/install/diffdrive_arduino
